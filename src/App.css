@@ -1,4 +1,4 @@
-/* RedirectPage.css */
+/* App.css */
 
 body {
   margin: 0;
@@ -10,78 +10,6 @@ body {
   background: linear-gradient(to right, #1e3c72, #2a5298);
   font-family: 'Poppins', sans-serif;
   color: #fff;
-}
-
-.container {
-  text-align: center;
-  padding: 20px;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(15px);
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-  max-width: 450px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 26px;
-  font-weight: 600;
-}
-
-.status {
-  margin: 15px 0;
-  font-size: 20px;
-}
-
-.progress-bar {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
-  overflow: hidden;
-  height: 12px;
-  margin-top: 20px;
-}
-
-.progress {
-  height: 100%;
-  background: #ffcc00;
-  transition: width 1s ease-in-out;
-}
-
-.spinner {
-  margin: 25px auto;
-  width: 35px;
-  height: 35px;
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  border-top: 4px solid #fff;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.info {
-  font-size: 16px;
-  margin-top: 15px;
-}
-
-.redirect {
-  margin-top: 15px;
-}
-
-.link {
-  color: #ffeb3b;
-  text-decoration: none;
+  font-size: 24px;
   font-weight: bold;
 }
